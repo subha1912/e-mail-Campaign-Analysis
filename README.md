@@ -43,10 +43,6 @@ Random Forest Classifier (baseline model)
 
 XGBoost Classifier (optimized, better results)
 
-
-Model	           Precision	Recall	F1-Score	    Notes
-➡ Random Forest	  0.28	  0.14	    0.19	    Struggled with identifying clickers
-➡ XGBoost (better)	0.22	  0.86	    0.35	    Much better recall (click prediction)
 ➡ XGBoost significantly improved recall — it found more actual clickers, which is key for marketing.
 
  How to Test in Real Life:
@@ -55,25 +51,11 @@ Run an A/B test: send emails using current method vs model-recommended method, t
 ## Step 4: User Segment Insights
 We explored how click rates vary by:
 
-Country
-
-Country	   Emails Sent	Clicks	CTR
-US	          60,099	   1,464	2.44%
-UK	          19,939	    492	  2.47%
-ES	           9,967	     83	  0.83%
-FR             9,995	     80	  0.80%
 Insight: English-speaking countries (US/UK) have better engagement.
-
-Email Version
-
-Type	        Emails Sent  	Clicks	CTR
-Personalized	49,791	      1,359	  2.72%
-Generic	      50,209	        760	  1.51%
 Insight: Personalized emails lead to higher clicks.
 
  Visual Insights
 🔹 Click Rate by Country
-
 🔹 Click Rate by Email Version
 
 ## Tools Used
@@ -96,7 +78,6 @@ US/UK users are more engaged than others.
 
 ## Conclusion
 This project shows how data + machine learning can make marketing smarter, reduce guesswork, and increase engagement.
-
 Anyone running campaigns can use this setup to:
 
 Monitor email success,
