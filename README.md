@@ -1,4 +1,4 @@
- ***Email Campaign Performance Analysis with ML Optimization***
+### Email Campaign Performance Analysis with ML Optimization ###
 This project explores how an email campaign performed using real user interaction data. We dive into how people opened and clicked emails, and we even used machine learning to suggest how future email campaigns could be improved — all built and tested in Google Colab.
 
 **Project Goals**
